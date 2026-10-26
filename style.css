@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 20px 40px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #7de3ff;
+}
+/* セクションメインビジュアル */
+.main-visual {
+    height: 600px;
+    background-color: #003366;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 40px 80px;
+    color: white;
+}
+
+.main-visual-text {
+    max-width: 600px;
+}
+
+.main-visual-text h2 {
+    font-size: 42px;
+    margin: 20px 0;
+}
+
+.main-visual-text p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color: #003366;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+/*  */
+.news {
+    padding: 60px 80px;
+    background-color: #f5faff;
+}
+
+.news h2,
+.exhibition h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.news li {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.news time {
+    margin-right: 30px;
+    color: #003366;
+}
+
+.exhibition {
+    padding: 80px;
+    text-align: center;
+}
+
+.exhibition > p {
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.exhibition-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.exhibition-item {
+    flex: 1;
+    max-width: 350px;
+    text-align: left;
+}
+
+.exhibition-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.exhibition-item h3 {
+    color: #003366;
+    font-size: 22px;
+}
+
+.exhibition-item p {
+    line-height: 1.8;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #005599;
+}
